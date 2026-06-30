@@ -1,0 +1,3 @@
+[workspace]
+members = ["db-tredge","db-macro"]
+resolver = "3"
