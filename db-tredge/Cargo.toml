@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-db-macro = {path = "../db-macro/"}
+db-macro = {path = "../db-macro"}
