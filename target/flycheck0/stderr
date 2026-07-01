@@ -1,11 +1,12 @@
-error: failed to load manifest for workspace member `/home/alex/Projects/db/db-tredge`
-referenced by workspace at `/home/alex/Projects/db/Cargo.toml`
-
-Caused by:
-  failed to load manifest for dependency `db-macro`
-
-Caused by:
-  failed to read `/home/alex/Projects/db/db-macro/Cargo.toml`
-
-Caused by:
-  No such file or directory (os error 2)
+   0.009707351s  INFO prepare_target{force=false package_id=db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge) target="db_tredge"}: cargo::core::compiler::fingerprint: stale: changed "/home/alex/Projects/db/db-tredge/src/lib.rs"
+   0.009721875s  INFO prepare_target{force=false package_id=db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge) target="db_tredge"}: cargo::core::compiler::fingerprint:           (vs) "/home/alex/Projects/db/target/debug/.fingerprint/db-tredge-f5e50cc98ada6721/dep-lib-db_tredge"
+   0.009724216s  INFO prepare_target{force=false package_id=db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge) target="db_tredge"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1782889207, nanos: 718989000 } < FileTime { seconds: 1782889212, nanos: 388988982 }
+   0.009747891s  INFO prepare_target{force=false package_id=db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge) target="db_tredge"}: cargo::core::compiler::fingerprint: fingerprint dirty for db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("db_tredge", ["lib"], "/home/alex/Projects/db/db-tredge/src/lib.rs", Edition2024) }
+   0.009755607s  INFO prepare_target{force=false package_id=db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge) target="db_tredge"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/alex/Projects/db/target/debug/.fingerprint/db-tredge-f5e50cc98ada6721/dep-lib-db_tredge", reference_mtime: FileTime { seconds: 1782889207, nanos: 718989000 }, stale: "/home/alex/Projects/db/db-tredge/src/lib.rs", stale_mtime: FileTime { seconds: 1782889212, nanos: 388988982 } }))
+   0.009925187s  INFO prepare_target{force=false package_id=db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge) target="db_tredge"}: cargo::core::compiler::fingerprint: stale: changed "/home/alex/Projects/db/db-tredge/src/lib.rs"
+   0.009928188s  INFO prepare_target{force=false package_id=db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge) target="db_tredge"}: cargo::core::compiler::fingerprint:           (vs) "/home/alex/Projects/db/target/debug/.fingerprint/db-tredge-8a07e9033a7cf497/dep-test-lib-db_tredge"
+   0.009929428s  INFO prepare_target{force=false package_id=db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge) target="db_tredge"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1782889175, nanos: 64989125 } < FileTime { seconds: 1782889212, nanos: 388988982 }
+   0.009940798s  INFO prepare_target{force=false package_id=db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge) target="db_tredge"}: cargo::core::compiler::fingerprint: fingerprint dirty for db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("db_tredge", ["lib"], "/home/alex/Projects/db/db-tredge/src/lib.rs", Edition2024) }
+   0.009945566s  INFO prepare_target{force=false package_id=db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge) target="db_tredge"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/alex/Projects/db/target/debug/.fingerprint/db-tredge-8a07e9033a7cf497/dep-test-lib-db_tredge", reference_mtime: FileTime { seconds: 1782889175, nanos: 64989125 }, stale: "/home/alex/Projects/db/db-tredge/src/lib.rs", stale_mtime: FileTime { seconds: 1782889212, nanos: 388988982 } }))
+    Checking db-tredge v0.1.0 (/home/alex/Projects/db/db-tredge)
+error: could not compile `db-tredge` (lib test) due to 1 previous error; 1 warning emitted

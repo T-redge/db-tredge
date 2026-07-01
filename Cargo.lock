@@ -3,12 +3,5 @@
 version = 4
 
 [[package]]
-name = "db-macro"
-version = "0.1.0"
-
-[[package]]
 name = "db-tredge"
 version = "0.1.0"
-dependencies = [
- "db-macro",
-]
